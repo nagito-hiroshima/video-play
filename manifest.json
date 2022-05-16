@@ -1,0 +1,19 @@
+{
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "content.js" ],
+      "matches": [ "*://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "動画再生",
+   "icons": {
+      "16": "icom.png",
+      "48": "icom.png",
+      "128": "icom.png"
+   },
+   "manifest_version": 2,
+   "name": "動画再生補助[Apex]",
+   "permissions": [ "*://*/*" ],
+ "version": "1.0.0",
+   "web_accessible_resources": [ "/disable-visibility-detection.js" ]
+}
