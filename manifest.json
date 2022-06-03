@@ -14,6 +14,6 @@
    "manifest_version": 2,
    "name": "動画再生補助[Apex]",
    "permissions": [ "*://*/*" ],
- "version": "1.0.0",
+ "version": "1.5.0",
    "web_accessible_resources": [ "/disable-visibility-detection.js" ]
 }
